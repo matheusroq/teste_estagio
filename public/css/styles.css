@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.navbar {
+    height: 30px;
+    background: #021639;
+    color: #fff;
+    box-shadow: -1px 1px 2px rgba(0, 0, 0, .2);
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul li {
+    padding: 0 10px;
+}
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    margin: 10px auto;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box-home {
+    margin: 100px auto;
+    border: 5px solid #ffb156;
+    border-radius: 10px;
+    width: 80%;
+    height: 30vh;
+}
+.form-container {
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    background-color: #1e4e5f;
+    border-radius: 20px;
+    box-shadow: -3px 2px 4px 0px rgba(0, 0, 0, .2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.form-container h1 {
+    color: #fff;
+
+}
+.form-container .btn {
+    background: #ffb156;
+}
+.input {
+    width: 300px;
+    margin: 10px;
+    padding: 15px 10px;
+    border-radius: 10px;
+    border: none;
+ }
+
+ .btn {
+    width: 100px;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background: #021639;
+    transition: ease-in-out 300ms;
+}
+.btn a {
+    color: #fff;
+    text-decoration: none;
+}
+.btn:hover {
+    background: #979fad;
+}
+table {
+    min-width: 360px;
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 11px 10px 1px #ffb156;
+  }
+
+  table caption {
+    font-style: italic;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  table th {
+    color: #fff;
+  }
+  table td, table th {
+    white-space: nowrap;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ffb156;
+  }
+
+  tfoot td, table th {
+    background: #ffb156;
+  }
